@@ -43,5 +43,5 @@ export default function MapVisualization({ nodes }: MapVisualizationProps) {
         generateMarkmap();
     }, [nodes]);
 
-    return <svg ref={svgRef} style={{ width: '100%', height: '600vh' }}></svg>;
+    return <svg ref={svgRef} style={{ width: '100%', height: '100vh' }}></svg>;
 }
